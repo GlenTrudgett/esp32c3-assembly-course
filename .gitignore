@@ -1,0 +1,27 @@
+# ESP-IDF build output
+build/
+sdkconfig
+sdkconfig.old
+sdkconfig.bak
+dependencies.lock
+managed_components/
+
+# Editor and OS files
+.nvim.lua
+.DS_Store
+*.swp
+*.swo
+*~
+tags
+.tags
+
+# Compiled objects (keep .S and .c, ignore .o and .elf)
+*.o
+*.elf
+*.bin
+*.map
+*.d
+
+# Python cache
+__pycache__/
+*.pyc
